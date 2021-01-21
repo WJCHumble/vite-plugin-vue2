@@ -1,0 +1,19 @@
+{
+  "name": "plugin-vue2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0-beta.34"
+  }
+}
