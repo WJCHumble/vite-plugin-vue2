@@ -1,19 +1,24 @@
 {
   "name": "plugin-vue2",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A vite plugin which support to vue2.x deveploment.",
   "main": "index.js",
-  "scripts": {
-    "dev": "vite"
+  "keywords": [
+    "vite",
+    "vue2",
+    "bundless"
+  ],
+  "author": "wuliu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WJCHumble/snowpack-plugin-vue-2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@rollup/pluginutils": "^4.1.0",
     "@vue/component-compiler-utils": "^3.2.0",
+    "hash-sum": "^2.0.0",
+    "querystring": "^0.2.0",
     "vue-template-compiler": "^2.6.12"
-  },
-  "devDependencies": {
-    "vite": "^2.0.0-beta.34"
   }
 }

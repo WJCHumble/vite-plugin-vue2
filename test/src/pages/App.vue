@@ -1,5 +1,5 @@
 <template>
-  <div>222</div>
+  <div class="box">22221</div>
 </template>
 
 <script>
@@ -7,9 +7,9 @@ export default {};
 </script>
 
 <style scoped>
-div {
+.box {
   width: 200px;
   height: 200px;
-  background: #faa;
+  background: #aff;
 }
 </style>

@@ -2,5 +2,8 @@ import Vue from "vue"
 import App from "./pages/App.vue"
 
 new Vue({
-  render: h => h(App)
+  render: h => {
+    debugger
+    return h(App)
+  }
 }).$mount("#app")

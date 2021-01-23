@@ -1,5 +1,5 @@
-import vue2 from "../plugin"
+import vue2 from "../index.js"
 
 export default {
-  plugin: [vue2()]
+  plugins: [vue2()]
 }
